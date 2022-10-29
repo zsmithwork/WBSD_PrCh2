@@ -1,0 +1,59 @@
+#box {
+  border: 10px solid black;
+  width: 498px;
+  height: 498px;
+  position: relative;
+}
+#shuffle {
+  position: relative;
+  top: 15px;
+}
+.tile {
+  border: 0px hidden;
+  width: 166px;
+  height: 166px;
+  float: left;
+}
+#t0 {
+  background-image: url("full.png");
+  background-position: left top;
+  background-color: lightblue;
+}
+#t1 {
+  background-image: url("full.png");
+  background-position: center top;
+  background-color: lightblue;
+}
+#t2 {
+  background-image: url("full.png");
+  background-position: right top;
+  background-color: lightblue;
+}
+#t3 {
+  background-image: url("full.png");
+  background-position: left center;
+  background-color: lightblue;
+}
+#t4 {
+  background-image: url("full.png");
+  background-position: center center;
+  background-color: lightblue;
+}
+#t5 {
+  background-image: url("full.png");
+  background-position: right center;
+  background-color: lightblue;
+}
+#t6 {
+  background-image: url("full.png");
+  background-position: left bottom;
+  background-color: lightblue;
+}
+#t7 {
+  background-image: url("full.png");
+  background-position: center bottom;
+  background-color: lightblue;
+}
+#t8 {
+  background-color: teal;
+}
